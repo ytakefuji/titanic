@@ -50,4 +50,4 @@ In order to install conda, download one of the following files from the site:
 
 https://conda.io/miniconda.html
 
-Python 2.7 will retire in 2020. I have tested Python 2.7.
+I have tested Python3.7.
