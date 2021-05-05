@@ -12,7 +12,7 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 11,1st,0,Astor  Colonel John Jacob,47,Cherbourg,"New York, NY",,17754 L224 10s 6d,-124,male
 12,1st,1,Astor  Mrs John Jacob (Madeleine Talmadge Force),19,Cherbourg,"New York, NY",,17754 L224 10s 6d,4,female
 13,1st,1,Aubert  Mrs Leontine Pauline,NA,Cherbourg,"Paris, France",B-35,17477 L69 6s,9,female
-14,1st,1,Barkworth  Mr Algernon H.,NA,Southampton,"Hessle, Yorks",A-23,,B,male
+14,1st,1,Barkworth  Mr Algernon H.,NA,Southampton,"Hessle, Yorks",A-23,,,male
 15,1st,0,Baumann  Mr John D.,NA,Southampton,"New York, NY",,,,male
 16,1st,1,Baxter  Mrs James (Helene DeLaudeniere Chaput),50,Cherbourg,"Montreal, PQ",B-58/60,,6,female
 17,1st,0,Baxter  Mr Quigg Edmond,24,Cherbourg,"Montreal, PQ",B-58/60,,,male
@@ -23,7 +23,7 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 22,1st,0,Birnbaum  Mr Jakob,25,Cherbourg,"San Francisco, CA",,,-148,male
 23,1st,1,Bishop  Mr Dickinson H.,25,Cherbourg,"Dowagiac, MI",B-49,,7,male
 24,1st,1,Bishop  Mrs Dickinson H. (Helen Walton),19,Cherbourg,"Dowagiac, MI",B-49,,7,female
-25,1st,1,Bjornstrm-Steffansson  Mr Mauritz Hakan,28,Southampton,"Stockholm, Sweden / Washington, DC",, ,D,male
+25,1st,1,Bjornstrm-Steffansson  Mr Mauritz Hakan,28,Southampton,"Stockholm, Sweden / Washington, DC",, ,,male
 26,1st,0,Blackwell  Mr Stephen Weart,45,Southampton,"Trenton, NJ",,,-241,male
 27,1st,1,Blank  Mr Henry,39,Cherbourg,"Glen Ridge, NJ",A-31,,7,male
 28,1st,1,Bonnell  Miss Caroline,30,Southampton,"Youngstown, OH",C-7,,8,female
@@ -36,17 +36,17 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 35,1st,0,Brandeis  Mr Emil,48,Cherbourg,"Omaha, NE",,17591 L50 9s 11d,-208,male
 36,1st,0,Brewe  Dr Arthur Jackson,NA,Cherbourg,"Philadelphia, PA",,,,male
 37,1st,1,Brown  Mrs James Joseph (Margaret Molly Tobin),44,Cherbourg,"Denver, CO",,17610 L27 15s 5d,6,female
-38,1st,1,Brown  Mrs John Murray (Caroline Lane Lamson),59,Southampton,"Belmont, MA",C-101,,D,female
+38,1st,1,Brown  Mrs John Murray (Caroline Lane Lamson),59,Southampton,"Belmont, MA",C-101,, ,female
 39,1st,1,Bucknell  Mrs William Robert (Emma Eliza Ward),60,Cherbourg,"Philadelphia, PA",,,8,female
 40,1st,0,Butt  Major Archibald Willingham,45,Southampton,"Washington, DC",,,,male
-41,1st,1,Calderhead  Mr Edward P.,NA,Southampton,"New York, NY",,,5ŒŽ7“ú,male
+41,1st,1,Calderhead  Mr Edward P.,NA,Southampton,"New York, NY",,,,male
 42,1st,1,Candee  Mrs Edward (Helen Churchill Hungerford),53,Cherbourg,"Washington, DC",,,6,female
 43,1st,1,Cardeza  Mrs James Warburton Martinez (Charlotte Wardle Drake),58,Cherbourg,"Germantown, Philadelphia, PA",B-51/3/5,17755 L512 6s,3,female
 44,1st,1,Cardeza  Mr Thomas Drake Martinez,36,Cherbourg,"Austria-Hungary / Germantown, Philadelphia, PA",B-51/3/5,17755 L512 6s,3,male
 45,1st,0,Carlsson  Mr Frans Olof,33,Southampton,"New York, NY",,,,male
 46,1st,0,Carrau  Mr Francisco M.,NA,Southampton,"Montevideo, Uruguay",,,,male
 47,1st,0,Carrau  Mr Jose Pedro,NA,Southampton,"Montevideo, Uruguay",,,,male
-48,1st,1,Carter  Mr William Ernest,36,Southampton,"Bryn Mawr, PA",,,C,male
+48,1st,1,Carter  Mr William Ernest,36,Southampton,"Bryn Mawr, PA",,,,male
 49,1st,1,Carter  Mrs William Ernest (Lucile Polk),36,Southampton,"Bryn Mawr, PA",,,4,female
 50,1st,1,Carter  Miss Lucile Polk,14,Southampton,"Bryn Mawr, PA",,,4,female
 51,1st,1,Carter  Master William T. II,11,Southampton,"Bryn Mawr, PA",,,4,male
@@ -76,7 +76,7 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 75,1st,1,Crosby  Miss Harriet R.,36,Southampton,"Milwaukee, WI",,,5,female
 76,1st,0,Cumings  Mr John Bradley,39,Cherbourg,"New York, NY",C-85,,,male
 77,1st,1,Cumings  Mrs John Bradley (Florence Briggs Thayer),38,Cherbourg,"New York, NY",C-85,,4,female
-78,1st,1,Daly  Mr Peter Denis ,NA,Southampton,"Lima, Peru",,,A,male
+78,1st,1,Daly  Mr Peter Denis ,NA,Southampton,"Lima, Peru",,, ,male
 79,1st,1,Daniel  Mr Robert Williams,27,Southampton,"Philadelphia, PA",,,7,male
 80,1st,0,Davidson  Mr Thornton,31,Southampton,"Montreal, PQ",,,,male
 81,1st,1,Davidson  Mrs Thornton (Orian Hays),27,Southampton,"Montreal, PQ",,,3,female
@@ -84,8 +84,8 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 83,1st,1,Dick  Mr Albert Adrian,31,Cherbourg,"Calgary, AB",,,3,male
 84,1st,1,Dick  Mrs Albert Adrian Vera Gillespie,17,Cherbourg,"Calgary, AB",,,3,female
 85,1st,1,Dodge  Dr. Washington,NA,Southampton,"San Francisco, CA",,,13,male
-86,1st,1,Dodge  Mrs Washington (Ruth Vidaver),NA,Southampton,"San Francisco, CA",,,5ŒŽ7“ú,female
-87,1st,1,Dodge  Master Washington,4,Southampton,"San Francisco, CA",,,5ŒŽ7“ú,male
+86,1st,1,Dodge  Mrs Washington (Ruth Vidaver),NA,Southampton,"San Francisco, CA",,,,female
+87,1st,1,Dodge  Master Washington,4,Southampton,"San Francisco, CA",,,,male
 88,1st,1,Douglas  Mrs Frederick Charles (Suzette Baxter),27,Cherbourg,"Montreal, PQ",,,6,female
 89,1st,0,Douglas  Mr Walter Donald,50,Cherbourg,"Deephaven, MN / Cedar Rapids, IA",,,-62,male
 90,1st,1,Douglas  Mrs Walter Donald (Mahala Dutton),48,Cherbourg,"Deephaven, MN / Cedar Rapids, IA",,,2,female
@@ -96,7 +96,7 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 95,1st,1,Eustis  Miss Elizabeth Mussey,53,Cherbourg,"Brookline, MA",,,4,female
 96,1st,0,Evans  Miss Edith Corse,36,Cherbourg,"New York, NY",,,,female
 97,1st,1,Flegenheim  Mrs Alfred (Antoinette),NA,Cherbourg,"New York, NY",,,7,female
-98,1st,1,Flynn  Mr John Irving,NA,Southampton,"Brooklyn, NY",,,5ŒŽ7“ú,male
+98,1st,1,Flynn  Mr John Irving,NA,Southampton,"Brooklyn, NY",,,,male
 99,1st,0,Foreman  Mr Benjamin Laventall,30,Cherbourg,"New York, NY",,,,male
 100,1st,1,Fortune  Miss Alice Elizabeth,24,Southampton,"Winnipeg, MB",,,10,female
 101,1st,0,Fortune  Mr Charles Alexander,19,Southampton,"Winnipeg, MB",,,,male
@@ -119,19 +119,19 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 118,1st,1,Goldenberg  Mr Samuel L.,49,Cherbourg,"Paris, France / New York, NY",,,5,male
 119,1st,1,Goldenberg  Mrs Samuel L. (Edwiga Grabowsko),NA,Cherbourg,"Paris, France / New York, NY",,,5,female
 120,1st,0,Goldschmidt  Mr George B.,71,Cherbourg,"New York, NY",,,,male
-121,1st,1,Gracie  Colonel Archibald IV,54,Southampton,"Washington, DC",C-51,113780 L28 10s,B,male
+121,1st,1,Gracie  Colonel Archibald IV,54,Southampton,"Washington, DC",C-51,113780 L28 10s, ,male
 122,1st,0,Graham  Mr George Edward,38,Southampton,"Winnipeg, MB",,,-147,male
 123,1st,1,Graham  Miss Margaret Edith,19,Southampton,"Greenwich, CT",C-125,17582 L153 9s 3d,3,female
 124,1st,1,Graham  Mrs William Thompson (Edith Junkins),58,Southampton,"Greenwich, CT",C-91,17582 L153 9s 3d,3,female
 125,1st,1,Greenfield  Mrs Leo David (Blanche Strouse),45,Cherbourg,"New York, NY",,,7,female
 126,1st,1,Greenfield  Mr William Bertram,23,Cherbourg,"New York, NY",,,7,male
-127,1st,0,Guggenheim  Mr Benjamin,46,Cherbourg,"New York, NY",B-82/4,17593 L56 18s 7d,,male
+127,1st,0,Guggenheim  Mr Benjamin,46,Cherbourg,"New York, NY",B-82/4,17593 L56 18s 7d, ,male
 128,1st,1,Harder  Mr George Achilles,25,Cherbourg,"Brooklyn, NY",,,5,male
 129,1st,1,Harder  Mrs George Achilles (Dorothy Annan),21,Cherbourg,"Brooklyn, NY",,,5,female
 130,1st,1,Harper  Mr Henry Sleeper,48,Cherbourg,"New York, NY",,,3,male
 131,1st,1,Harper  Mrs Henry Sleeper (Myna Haxtun),49,Cherbourg,"New York, NY",,,3,female
 132,1st,0,Harris  Mr Henry Birkhardt,45,Southampton,"New York, NY",C-83,36973 L83 9s 6d,,male
-133,1st,1,Harris  Mrs Henry Birkhardt (Irene Wallach),36,Southampton,"New York, NY",C-83,36973 L83 9s 6d,D,female
+133,1st,1,Harris  Mrs Henry Birkhardt (Irene Wallach),36,Southampton,"New York, NY",C-83,36973 L83 9s 6d, ,female
 134,1st,1,Hawksford  Mr Walter James,NA,Southampton,"Kingston, Surrey",,,3,male
 135,1st,0,Hays  Mr Charles Melville,55,Southampton,"Montreal, PQ",,,-307,male
 136,1st,1,Hays  Mrs Charles Melville (Clara Jennings Gregg),52,Southampton,"Montreal, PQ",,,3,female
@@ -145,11 +145,11 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 144,1st,0,Holverson  Mr Alexander Oskar,42,Southampton,"New York, NY",,,-38,male
 145,1st,1,Holverson  Mrs Alexander Oskar (Mary Aline Towner),35,Southampton,"New York, NY",,,,female
 146,1st,1,Homer  Mr Harry,35,Cherbourg,"Indianapolis, IN",,,15,male
-147,1st,1,Hoyt  Mr Frederick Maxfield,38,Southampton,"New York, NY /  Stamford CT",C-93,,D,male
-148,1st,1,Hoyt  Mrs Frederick Maxfield (Jane Anne Forby),35,Southampton,"New York, NY /  Stamford CT",C-93,,D,female
+147,1st,1,Hoyt  Mr Frederick Maxfield,38,Southampton,"New York, NY /  Stamford CT",C-93,, ,male
+148,1st,1,Hoyt  Mrs Frederick Maxfield (Jane Anne Forby),35,Southampton,"New York, NY /  Stamford CT",C-93,, ,female
 149,1st,0,Hoyt  Mr William F.,NA,Cherbourg,"New York, NY",,,14,male
 150,1st,0,Isham  Miss Anne Elizabeth,50,Cherbourg,"Paris, France New York, NY",C-49,,,female
-151,1st,1,Ismay  Mr Joseph Bruce,49,Southampton,Liverpool,B-52/4/6,112058 Complimentary,C,male
+151,1st,1,Ismay  Mr Joseph Bruce,49,Southampton,Liverpool,B-52/4/6,112058 Complimentary, ,male
 152,1st,0,Jones  Mr Charles Cresson,46,Southampton,"Bennington, VT",,,-80,male
 153,1st,0,Julian  Mr Henry Forbes,NA,Southampton,London,,,,male
 154,1st,0,Kent  Mr Edward Austin,58,Cherbourg,"Buffalo, NY",,,-258,male
@@ -206,7 +206,7 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 205,1st,0,Porter  Mr Walter Chamberlain,46,Southampton,"Worcester, MA",,,-207,male
 206,1st,1,Potter  Mrs Thomas  Jr. (Lily Alexenia Wilson),56,Cherbourg,"Mt Airy, Philadelphia, PA",,,7,female
 207,1st,0,Reuchlin  Jonkheer John George,NA,Southampton,"Rotterdam, Netherlands",,,,male
-208,1st,1,Rheims  Mr George Lucien,NA,Cherbourg,"Paris /  New York, NY",,17604 L39 12s,A,male
+208,1st,1,Rheims  Mr George Lucien,NA,Cherbourg,"Paris /  New York, NY",,17604 L39 12s, ,male
 209,1st,1,Robert  Mrs Edward Scott (Elisabeth Walton McMillan),43,Southampton,"St Louis, MO",B-3,24160 L221,2,female
 210,1st,0,Roebling  Mr Washington Augustus 2nd,31,Southampton,"Trenton, NJ",,,,male
 211,1st,1,Romaine  Mr Charles Hallace,NA,Southampton,"New York, NY",,,15,male
@@ -217,7 +217,7 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 216,1st,0,Rothschild  Mr Martin,55,Cherbourg,"New York, NY",,,,male
 217,1st,1,Rothschild  Mrs Martin (Elizabeth L. Barrett),54,Cherbourg,"New York, NY",,,6,female
 218,1st,0,Rowe  Mr Alfred G.,NA,Southampton,London,,,-109,male
-219,1st,0,Ryerson  Mr Arthur Larned,61,Cherbourg,"Haverford, PA / Cooperstown, NY",,17608 L262 7s 6d,,male
+219,1st,0,Ryerson  Mr Arthur Larned,61,Cherbourg,"Haverford, PA / Cooperstown, NY",,17608 L262 7s 6d, ,male
 220,1st,1,Ryerson  Mrs Arthur Larned (Emily Maria Borie),48,Cherbourg,"Haverford, PA / Cooperstown, NY",,17608 L262 7s 6d,4,female
 221,1st,1,Ryerson  Miss Emily Borie,18,Cherbourg,"Haverford, PA / Cooperstown, NY",,17608 L262 7s 6d,4,female
 222,1st,1,Ryerson  Master John Borie,13,Cherbourg,"Haverford, PA / Cooperstown, NY",,17608 L262 7s 6d,4,male
@@ -252,7 +252,7 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 251,1st,0,Stewart  Mr Albert A.,NA,Cherbourg,"Gallipolis, Ohio / ? Paris / New York",,,,male
 252,1st,1,Stone  Mrs George Nelson (Martha E.),62,,"Cincinatti, OH",,,6,female
 253,1st,0,Straus  Mr Isidor,67,Southampton,"New York, NY",,17483 L221 15s 7d,-96,male
-254,1st,0,Straus  Mrs Isidor (Ida Blun),63,Southampton,"New York, NY",,17483 L221 15s 7d,,female
+254,1st,0,Straus  Mrs Isidor (Ida Blun),63,Southampton,"New York, NY",,17483 L221 15s 7d, ,female
 255,1st,0,Sutton  Mr Frederick,61,Southampton,"Haddenfield, NJ",,,-46,male
 256,1st,1,Swift  Mrs Frederick Joel (Margaret Welles Barron),46,Southampton,"Brooklyn, NY",,,8,female
 257,1st,0,Taussig  Mr Emil,52,Southampton,"New York, NY",,,,male
@@ -262,9 +262,9 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 261,1st,1,Taylor  Mrs Elmer Zebley (Juliet Cummins Wright),NA,Southampton,"London /  East Orange, NJ",C-126,,5,female
 262,1st,0,Thayer  Mr John Borland,49,Cherbourg,"Haverford, PA",,,,male
 263,1st,1,Thayer  Mrs John Borland (Marian Longstreth Morris),39,Cherbourg,"Haverford, PA",,,4,female
-264,1st,1,Thayer  Mr John Borland  jr.,17,Cherbourg,"Haverford, PA",,,B,male
+264,1st,1,Thayer  Mr John Borland  jr.,17,Cherbourg,"Haverford, PA",,, ,male
 265,1st,0,Thorne  Mr George (alias of: Mr George Rosenshine),46,Cherbourg,"New York, NY",,,,male
-266,1st,1,Thorne  Mrs Gertrude Maybelle,NA,Cherbourg,"New York, NY",,,D,female
+266,1st,1,Thorne  Mrs Gertrude Maybelle,NA,Cherbourg,"New York, NY",,, ,female
 267,1st,1,Tucker  Mr Gilbert Milligan  jr,31,Cherbourg,"Albany, NY",,,7,male
 268,1st,0,Uruchurtu  Mr Manuel E.,NA,Cherbourg,"Mexico City, Mexico",,,,male
 269,1st,0,Van Derhoef  Mr Wyckoff,61,Southampton,"Brooklyn, NY",,,-245,male
@@ -284,8 +284,8 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 283,1st,1,Willard  Miss Constance,20,Southampton,"Duluth, MN",,,,female
 284,1st,0,Williams  Mr Charles Duane,51,Cherbourg,"Geneva, Switzerland / Radnor, PA",,,,male
 285,1st,0,Williams  Mr Fletcher Lambert,NA,Southampton,"London, England",,,,male
-286,1st,1,Williams  Mr Richard Norris II,21,Cherbourg,"Geneva, Switzerland / Radnor, PA",,,A,male
-287,1st,1,Woolner  Mr Hugh,NA,Southampton,"London, England",,,D,male
+286,1st,1,Williams  Mr Richard Norris II,21,Cherbourg,"Geneva, Switzerland / Radnor, PA",,, ,male
+287,1st,1,Woolner  Mr Hugh,NA,Southampton,"London, England",,, ,male
 288,1st,0,Wright  Mr George,NA,Southampton,"Halifax, NS",,,,male
 289,1st,1,Young  Miss Marie Grice,36,Cherbourg,"New York, NY / Washington, DC",,,8,female
 290,1st,1,Barber  Ms ,NA,Southampton,,,,,female
@@ -394,9 +394,9 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 393,2nd,1,Doling  Mrs Ada,32,Southampton,Southampton,,,,female
 394,2nd,1,Doling  Miss Elsie,18,Southampton,Southampton,,,,female
 395,2nd,0,Downton (?Douton)  Mr William James,NA,Southampton,"Holley, NY",,,,male
-396,2nd,0,Drew  Mr James Vivian,42,Southampton,"Greenport, NY",,28220 L32 10s,,male
-397,2nd,1,Drew  Mrs James Vivian (Lulu Thorne Christian),34,Southampton,"Greenport, NY",,28220 L32 10s,,female
-398,2nd,1,Drew  Master Marshall Brines,8,Southampton,"Greenport, NY",,28220 L32 10s,,male
+396,2nd,0,Drew  Mr James Vivian,42,Southampton,"Greenport, NY",,28220 L32 10s, ,male
+397,2nd,1,Drew  Mrs James Vivian (Lulu Thorne Christian),34,Southampton,"Greenport, NY",,28220 L32 10s, ,female
+398,2nd,1,Drew  Master Marshall Brines,8,Southampton,"Greenport, NY",,28220 L32 10s, ,male
 399,2nd,1,Duran y More  Miss Asuncion,NA,Cherbourg,"Barcelona, Spain / Havana, Cuba",,,12,female
 400,2nd,1,Duran y More  Miss Florentina,NA,Cherbourg,"Barcelona, Spain / Havana, Cuba",,,12,female
 401,2nd,0,Eitemiller  Mr George Floyd,23,Southampton,"England / Detroit, MI",,,,male
@@ -474,7 +474,7 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 473,2nd,0,Lahtinen  Rev William,30,Southampton,"Minneapolis, MN",,,,male
 474,2nd,0,Lahtinen  Mrs William (Anna Sylvan),26,Southampton,"Minneapolis, MN",,,,female
 475,2nd,0,Lamb  Mr John James,NA,Queenstown,,,,,male
-476,2nd,1,Lemore  Mrs Amelia,34,Southampton,"Chicago, IL",F-33,,14/D,female
+476,2nd,1,Lemore  Mrs Amelia,34,Southampton,"Chicago, IL",F-33,, ,female
 477,2nd,0,LaRoche  Mr Joseph,26,Cherbourg,Paris / Haiti,,,,male
 478,2nd,1,LaRoche  Mrs Joseph (Juliet),22,Cherbourg,Paris / Haiti,,,,female
 479,2nd,1,LaRoche  Miss Louise,1,Cherbourg,Paris / Haiti,,,,female
@@ -499,9 +499,9 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 498,2nd,0,McCrae  Mr Arthur Gordon,45,Southampton,"Sydney, Australia",,,-209,male
 499,2nd,0,McCrie  Mr James Matthew,NA,Southampton,"Sarnia, ON",,,,male
 500,2nd,0,McKane  Mr Peter D.,46,Southampton,"Rochester, NY",,,,male
-501,2nd,1,Mellenger  Mrs Elizabeth Anne,41,Southampton,"England / Bennington, VT",,,12ŒŽ14“ú,female
-502,2nd,1,Mellenger  Miss Madeleine Violet,13,Southampton,"England / Bennington, VT",,,12ŒŽ14“ú,female
-503,2nd,1,Mellor  Mr William John,19,Southampton,"Chelsea, London",,,B,male
+501,2nd,1,Mellenger  Mrs Elizabeth Anne,41,Southampton,"England / Bennington, VT",,, ,female
+502,2nd,1,Mellenger  Miss Madeleine Violet,13,Southampton,"England / Bennington, VT",,, ,female
+503,2nd,1,Mellor  Mr William John,19,Southampton,"Chelsea, London",,, ,male
 504,2nd,0,Meyer  Mr August,30,Southampton,"Harrow-on-the-Hill, Middlesex",,,,male
 505,2nd,0,Milling  Mr Jacob Christian,48,Southampton,"Copenhagen, Denmark",,,-271,male
 506,2nd,0,Mitchell  Mr Henry Michael,71,Southampton,"Guernsey / Montclair, NJ and/or Toledo, Ohio",,,,male
@@ -511,9 +511,9 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 510,2nd,0,Myles  Mr Thomas Francis,64,Queenstown,"Cambridge, MA",,,,male
 511,2nd,0,Nasser (Nasrallah)  Mr Nicholas,32,Cherbourg,"New York, NY",,,-43,male
 512,2nd,1,Nasser (Nasrallah)  Mrs Nicholas,18,Cherbourg,"New York, NY",,,,female
-513,2nd,1,Navratil  Master Edmond Roger,2,Southampton,"Nice, France",,230080 L26,D,male
+513,2nd,1,Navratil  Master Edmond Roger,2,Southampton,"Nice, France",,230080 L26, ,male
 514,2nd,0,Navratil  Mr Michel,32,Southampton,"Nice, France",,230080 L26,-15,male
-515,2nd,1,Navratil  Master Michel M.,3,Southampton,"Nice, France",,230080 L26,D,male
+515,2nd,1,Navratil  Master Michel M.,3,Southampton,"Nice, France",,230080 L26, ,male
 516,2nd,0,Nesson  Mr Israel,26,Southampton,"Boston, MA",,,,male
 517,2nd,0,Nicholls  Mr Joseph Charles,19,Southampton,"Cornwall / Hancock, MI",,,-101,male
 518,2nd,0,Norman  Mr Robert Douglas,NA,Southampton,Glasgow,,,-287,male
@@ -604,9 +604,9 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 603,3rd,0,Abbing  Mr Anthony,42,Southampton,,,,,male
 604,3rd,0,Abbott  Master Eugene Joseph,13,Southampton,"East Providence, RI",,,,male
 605,3rd,0,Abbott  Mr Rossmore Edward,16,Southampton,"East Providence, RI",,,-190,male
-606,3rd,1,Abbott  Mrs Stanton (Rosa),35,Southampton,"East Providence, RI",,,A,female
+606,3rd,1,Abbott  Mrs Stanton (Rosa),35,Southampton,"East Providence, RI",,, ,female
 607,3rd,1,Abelseth  Miss Anna Karen,16,Southampton,"Norway Los Angeles, CA",,,16,female
-608,3rd,1,Abelseth  Mr Olaus,25,Southampton,"Perkins County, SD",,,A,male
+608,3rd,1,Abelseth  Mr Olaus,25,Southampton,"Perkins County, SD",,, ,male
 609,3rd,1,Abraham  Mrs Joseph (Sophie Easu),18,Cherbourg,"Greensburg, PA",,,,female
 610,3rd,1,Abrahamsson  Mr August,20,Southampton,"Taalintehdas, Finland Hoboken, NJ",,,15,male
 611,3rd,0,Adahl  Mr Mauritz Nils Martin,30,Southampton,"Asarum, Sweden Brooklyn, NY",,7076,-72,male
@@ -648,7 +648,7 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 647,3rd,1,Asplund  Mr John Charles,23,Southampton,"Oskarshamn, Sweden Minneapolis, MN",,,,male
 648,3rd,1,Asplund  Miss Lillian Gertrud,5,Southampton,"Sweden Worcester, MA",,,4,female
 649,3rd,0,Assaf  Mr Gerios,NA,Cherbourg,"Ottawa, ON",,,,male
-650,3rd,1,Assaf  Mrs Mariana,45,Cherbourg,"Ottawa, ON",,,C,female
+650,3rd,1,Assaf  Mrs Mariana,45,Cherbourg,"Ottawa, ON",,, ,female
 651,3rd,0,Assam  Mr Ali,23,Southampton,,,,,male
 652,3rd,0,Attalah  Miss Malaka,17,Cherbourg,,,,,female
 653,3rd,0,Attala (Kalil)  Mr Solomon,27,Cherbourg,"Ottawa, ON",,,,male
@@ -746,7 +746,7 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 745,3rd,1,Dahl  Mr Charles Edward,45,Southampton,"Australia Fingal, ND",,,15,male
 746,3rd,0,Dahlberg  Miss Gerda Ulrika,22,Southampton,"Norrlot, Sweden Chicago, IL",,,,female
 747,3rd,0,Dakic  Mr Branko,19,Southampton,Austria,,,,male
-748,3rd,1,Daly  Mr Eugene,29,Queenstown,"Co Athlone, Ireland New York, NY",,,B,male
+748,3rd,1,Daly  Mr Eugene,29,Queenstown,"Co Athlone, Ireland New York, NY",,, ,male
 749,3rd,1,Daly  Miss Marcella,30,Queenstown,"Co Athlone, Ireland New York, NY",,,,female
 750,3rd,0,Danbom  Mr Ernst Gilbert,34,Southampton,"Stanton, IA",,,,male
 751,3rd,0,Danbom  Mrs Ernst Gilbert (Anna Sigrid Maria Brogren),28,Southampton,"Stanton, IA",,,,female
@@ -770,19 +770,19 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 769,3rd,0,Denkoff  Mr Mito,NA,Southampton,"Bulgaria Coon Rapids, IA",,,,male
 770,3rd,0,Dennis  Mr Samuel,23,Southampton,,,,,male
 771,3rd,0,Dennis  Mr William,26,Southampton,,,,,male
-772,3rd,1,Devaney  Miss Margaret,19,Queenstown,"Kilmacowen, Co Sligo, Ireland New York, NY",,,C,female
+772,3rd,1,Devaney  Miss Margaret,19,Queenstown,"Kilmacowen, Co Sligo, Ireland New York, NY",,, ,female
 773,3rd,0,Dewan  Mr Frank,65,Queenstown,,,,,male
 774,3rd,0,Dibo  Mr Elias,NA,Cherbourg,,,,,male
 775,3rd,0,Dimic  Mr Jovan,42,Southampton,,,,,male
 776,3rd,0,Dintcheff  Mr Valtcho,43,Southampton,,,,,male
 777,3rd,0,Dooley  Mr Patrick,32,Queenstown,"Ireland New York, NY",,,,male
-778,3rd,1,Dorkings  Mr Edward Arthur,19,Southampton,"England Oglesby, IL",,,B,male
+778,3rd,1,Dorkings  Mr Edward Arthur,19,Southampton,"England Oglesby, IL",,, ,male
 779,3rd,1,Dowdell  Miss Elizabeth,30,Southampton,"Union Hill, NJ",,,13,female
 780,3rd,0,Doyle  Miss Elizabeth,24,Queenstown,"Ireland New York, NY",,,,female
 781,3rd,1,Drapkin  Miss Jennie,23,Southampton,"London New York, NY",,,,female
 782,3rd,0,Drazonovic  Mr Josef,NA,Cherbourg,"Austria Niagara Falls, NY",,,,male
 783,3rd,1,Driscoll  Miss Bridget,24,Queenstown,"Ballydehob, Co Cork, Ireland New York, NY",,,,female
-784,3rd,1,Duquemin  Mr Joseph,24,Southampton,"England Albion, NY",,,D,male
+784,3rd,1,Duquemin  Mr Joseph,24,Southampton,"England Albion, NY",,, ,male
 785,3rd,0,Dyker  Mr Adolf Fredrik,23,Southampton,"West Haven, CT",,,,male
 786,3rd,1,Dyker  Mrs Adolf Fredrik (Anna Elizabeth Judith Andersson),22,Southampton,"West Haven, CT",,,,female
 787,3rd,0,Econovic  Mr Joso,NA,Southampton,Austria-Hungary,,,,male
@@ -819,8 +819,8 @@ row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex
 818,3rd,1,Gilnagh  Miss Katie,16,Queenstown,"Co Longford, Ireland New York, NY",,,,female
 819,3rd,1,Glynn  Miss Mary Agatha,NA,Queenstown,"Co Clare, Ireland Washington, DC",,,13,female
 820,3rd,0,Goldsmith  Mr Frank John,33,Southampton,"Strood, Kent, England Detroit, MI",,,,male
-821,3rd,1,Goldsmith  Mrs Frank John (Emily A. Brown),NA,Southampton,"Strood, Kent, England Detroit, MI",,,C,female
-822,3rd,1,Goldsmith  Master Frank John William,9,Southampton,"Strood, Kent, England Detroit, MI",,,C,male
+821,3rd,1,Goldsmith  Mrs Frank John (Emily A. Brown),NA,Southampton,"Strood, Kent, England Detroit, MI",,, ,female
+822,3rd,1,Goldsmith  Master Frank John William,9,Southampton,"Strood, Kent, England Detroit, MI",,, ,male
 823,3rd,0,Goldsmith  Mr Nathan,41,Southampton,"Philadelphia, PA",,,,male
 824,3rd,0,Goncalves  Mr Manuel Estanslas,38,Southampton,Portugal,,,,male
 825,3rd,0,Goodwin  Mr Frederick,40,Southampton,"Wiltshire, England Niagara Falls, NY",,,,male
