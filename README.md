@@ -53,3 +53,12 @@ In order to install conda, download one of the following files from the site:
 https://conda.io/miniconda.html
 
 I have tested Python3.7.
+
+# exercises for students
+<pre>
+1. Make a randomforestclass program using titanic1.csv
+Hints
+A. Check the first line in titanic1.csv file.
+B. Based on the parameters, you should modify the 
+
+</pre>
