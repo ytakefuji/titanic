@@ -58,7 +58,7 @@ I have tested Python3.7.
 <pre>
 1. Make a randomforestclass program using titanic1.csv
 Hints
-A. Check the first line in titanic1.csv file.
-B. Based on the parameters, you should modify the 
+A. Check the first line in titanic2.csv file.
+B. Based on the parameters, you should modify randf_titanic.py.
 
 </pre>
