@@ -65,6 +65,6 @@ Hints
 A. Check the first line in titanic2.csv file for identifying 
    the parameter names.
 B. Based on the parameter names, you should modify 
-   randf_titanic.py.
+   randf_titanic.py and create randf_titanic2.py.
 
 </pre>
