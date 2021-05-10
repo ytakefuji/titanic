@@ -1,4 +1,6 @@
 # titanic
+There are two types in supervised machine learning:
+classification and regression.
 Titanic is a binary classification problem which can be used 
 to demonstrate how to use three important functions in machine 
 learning where pandas, preprocessing, and train_test_split are detailed.
