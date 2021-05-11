@@ -11,7 +11,7 @@ We would like to predict y values using X values by forming function f.
 <img src='y=f(X).png' height=400 width=600>
 
 ----------------------------
-titanic.csv is a dataset with 13 parameters (row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex). "survive" is the output y to be predicted and 12 parameters are inputs X. pandas is a library to import titanic.csv data in Python:
+titanic.csv is a dataset with 13 parameters (row.names,pclass,survived,name,age,embarked,home.dest,room,ticket,boat,sex). "survived" is the output y to be predicted and 12 parameters are inputs X. pandas is a library to import titanic.csv data in Python:
 <pre>
 import pandas as pd
 titanic=pd.read_csv('titanic.csv',encoding="shift-jis")
